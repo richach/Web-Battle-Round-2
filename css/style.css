@@ -1,0 +1,133 @@
+body {
+  background-color: #009999;
+  text-align: center;
+  min-width: 350px;
+  @import url(https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet");
+  font-family: 'Azeret Mono', monospace;
+}
+
+h1 {
+  font-family: 'Azeret Mono', monospace;
+  font-size: 4em;
+  font-weight: 900;
+  padding: 10px;
+  margin: 0px 10px;
+}
+
+p{
+  font-family: 'Azeret Mono', monospace;
+  color:#fff;
+  font-size: 1.2em;
+  font-weight: 700;
+
+}
+
+.container {
+  padding:0px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+#pomo {
+  margin: 0 auto;
+  position: relative;
+  padding: 3px 15px;
+}
+
+#status {
+  width: 70%;
+  color: #ff5050;
+  font-size: 2em;
+  position: absolute;
+  top: 20%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding-top: 0px;
+}
+
+.timerDisplay {
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn {
+  margin: 10px;
+  padding: 4px 4px;
+  color: white;
+  font-size: 1em;
+  cursor:pointer;
+  border: 2px solid white;
+}
+
+#start-btn {
+  height: 40px;
+  width: 90px;
+  position: absolute;
+  bottom: 20%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  background: #333300;
+}
+
+.btn-settings {
+  background-color: #4e4e5b;
+  margin: 10px;
+  border: 1px solid #4e4e5b;
+  border-radius: 10px;
+  padding: 2px 5px;
+  min-width: 40px;
+  color: white;
+  font-size: 2em;
+  cursor:pointer;
+}
+
+.settings {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+}
+
+#reboot{
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  background: #074082;
+  transform: translate(0%, 50%);
+
+}
+
+#work, #break {
+  padding-top: 10px;
+  font-family: 'Azeret Mono', monospace;
+  color:black;
+  font-size: 1.5em;
+  font-weight: 900;
+
+}
+
+#work p, #break p {
+  color: #fff;
+  background: brown;
+  padding: 3px;
+}
+
+.footer {
+  padding: 20px 0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 400px) {
+  .timerDisplay {
+  font-size: 2.5em;
+  }
+}
